@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*400,600,700*/
+@font-face {
+    font-family: work;
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+    font-size: 16px;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightpink: hsl(275, 100%, 97%);
+    --Grayishpurple: hsl(292, 16%, 49%);
+    --Darkpurple: hsl(292, 42%, 14%);
+}
+
+body{
+    background-color: var(--Lightpink);
+    font-family: work;
+    width: 100%;
+    height: 100vh;
+}
+
+.top{
+    width: 100%;
+}
